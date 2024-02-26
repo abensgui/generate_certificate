@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img src="" alt="">
+        <h2>generate certificate</h2>
+    </center>
+    <form action="cer.php" method="post">
+        <label for="studentName">Student Name:</label><br>
+        <input type="text" id="studentName" name="studentName"><br>
+        <label for="fonderName">Fonder Name:</label><br>
+        <input type="text" id="fonderName" name="fonderName"><br>
+        <label for="directorName">Director Name:</label><br>
+        <input type="text" id="directorName" name="directorName"><br>
+        <input type="submit" value="Submit" name="add">
+    </form>
+</body>
+</html>
